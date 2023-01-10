@@ -1,0 +1,146 @@
+.body{
+    margin: 0;
+    font-family: purista;
+}
+
+.container{
+   /* background-image: url("images/annie-spratt-_dAnK9GJvdY-unsplash.jpg"); */
+    background-color: rgb(161, 19, 19);
+    border: none;
+    background-size: 10px 3px;
+    position: static;
+    Outline: 1px solid;
+    padding: 4em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.hero{
+    background-image: url(/images/pexels-scott-webb-532563.jpg);
+    height: 150vh;
+    position: static;
+    Outline: 1px solid;
+    padding: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: Ivory;
+}
+
+.drop-button{
+    position: fixed;
+    left: 8px;
+    top: 47px;
+    background-color: rgb(161, 19, 19);
+    font-family: purista;
+    font-size: small;
+    letter-spacing: 3px ;
+    color: white;
+    padding: 12px 16px;
+    font-size: 26px;
+    border: black;
+    cursor: pointer;
+}
+
+.drop-menu{
+    position: fixed;
+    left: 8px;
+    top: 92px;
+    display: inline-block;
+}
+  
+.drop-menu-content{
+    background-color: rgb(161, 19, 19);
+    font-size: small;
+    letter-spacing: 3px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-menu-content a{
+    font-family: purista;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.drop-menu-content a:hover{background-color: rgb(165, 46, 46)}
+  
+.drop-menu:hover .drop-menu-content{
+    display: block;
+}
+  
+.drop-Menu:hover .drop-button{
+    background-color: rgb(46, 129, 46);
+}
+
+.drop-menu{
+    position: fixed;
+    left: 8px;
+    top: 92px;
+    display: inline-block;
+}
+  
+.drop-menu-content{
+    background-color: rgb(161, 19, 19);
+    font-size: small;
+    letter-spacing: 3px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+hr.menu-line{
+    border-top: 1px solid red;
+}
+
+.otsikko{
+    font-family: purista;
+    text-align: center;
+}
+
+.info-text{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid red;
+    padding: 3px;
+    font-family: purista;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.foot{
+    background-color: rgb(161, 19, 19);
+    border: none;
+    background-size: 10px 3px;
+    position: static;
+    Outline: 1px solid;
+    
+    padding: 5em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ikonit{
+    left: 40px;
+}
+
+.ikoni-linkit a{
+    color: black;
+    font-size: 3rem;
+    word-spacing: 50px;
+}
+
+
+
